@@ -37,9 +37,10 @@
 
     if (currentScore === targetNumber) {
       wins++;
+      alert("Winner Winner Chicken Dinner");
       $("#wins-text").html("Wins: "+wins);
     }
-    else if (counter >= targetNumber) {
+    else if (currentScore >= targetNumber) {
       alert("you overshot. You Lose");
       losses++;
       $("#losses-text").html("Losses: "+losses);
