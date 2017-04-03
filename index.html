@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rubens Crystal Game</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <div id=titlebox> <h1>CrystalsCollector!</h1></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div id="instructions">
+        <p> You have to click on the crystals until your score reaches the number shown below. 
+        <br><br><br>
+        If you go over the value you lose. Make sure the value matches without going over. 
+        <br><br><br>
+        Each cystal will be worth a different value. value is hidden until you click on it.
+        <br><br><br>
+        Each time the game starts, the gmae will change the values of each crystal. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-9">
+      <div id=value-box>Target Value</div>
+    </div>
+    <div class="col-md-3">
+      <div id=wins-loss-box>
+      
+        <span id="wins-text">Wins:<br></span>
+
+        <span id="losses-text">losses:<br></span>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="crystals-box">
+    <div class="col-md-3"><img class="crystal-pic" id="crystal1" src="images/whitecrystal.png"></div>
+    <div class="col-md-3"><img class="crystal-pic" id="crystal2" src="images/bluecrystal.png"></div>
+    <div class="col-md-3"><img class="crystal-pic" id="crystal3" src="images/greencrystal.png"> </div>
+    <div class="col-md-3"><img class="crystal-pic" id="crystal4" src="images/purplecrystal.jpeg"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12" id="current-score-box">current score:</div>
+  </div>
+
+</div>
+
+
+ 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <script type="text/javascript" src="javascript/javascript.js"></script>
+
+  
+</body>
+</html>

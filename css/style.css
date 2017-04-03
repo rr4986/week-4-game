@@ -1,0 +1,61 @@
+
+#container{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#titlebox{
+	background: blue;
+	font-size: 50px;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#instructions{
+	
+	background: lightblue;
+	font-size: 20px;
+	color:black;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#value-box{
+
+	height:100px;
+	background: green;
+	font-size: 25px;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wins-loss-box{
+
+	height:100px;
+	background: lightpink;
+	font-size: 25px;
+}
+
+#crystals-box{
+	margin:0;
+}
+
+.crystal-pic{
+	height:100px;
+}
+
+#current-score-box{
+
+	background: lightgreen;
+	font-size: 30px;
+	color: gray;
+
+}
